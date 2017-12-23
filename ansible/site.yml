@@ -1,0 +1,12 @@
+---
+- hosts: salt-minion
+  tasks:
+    - apt:
+        name: salt-minion
+        state: present
+
+- hosts: salt-master
+  tasks:
+    - apt:
+        name: salt-master
+        state: present

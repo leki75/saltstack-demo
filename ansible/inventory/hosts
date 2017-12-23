@@ -1,0 +1,7 @@
+[salt-master]
+debian1
+
+[salt-minion]
+debian1
+debian2
+debian3
